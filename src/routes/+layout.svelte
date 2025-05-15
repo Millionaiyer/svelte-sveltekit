@@ -2,10 +2,25 @@
 	let { children } = $props();
 </script>
 
-<nav class="flex gap-10">
+<nav class="header">
 	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/blog">Blog</a>
+	<a href="/partner">partner</a>
+	<a href="/payout">payout</a>
+	<a href="/managemnet">managemnet</a>
 </nav>
+<main>
+	{@render children()}
+</main>
 
-{@render children()}
+<style>
+	.header {
+		display: flex;
+		gap: 10px;
+		font-size: 20px;
+		padding: 10px;
+		border-radius: 12px;
+	}
+	.header a {
+		text-decoration: none;
+	}
+</style>

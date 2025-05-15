@@ -5,17 +5,17 @@
 	<div class="form-container">
 		<h2>Sign In</h2>
 		<form action="?/login" method="POST" class="form-action">
-			<label for="email" style="font-size: 20px;">Email</label>
-			<input id="email" name="email" type="email" required placeholder="Enter your email" />
+			<label for="userEmail" style="font-size: 20px;">User Email</label>
+			<input
+				id="userEmail"
+				name="userEmail"
+				type="userEmail"
+				required
+				placeholder="Enter your email"
+			/>
 
 			<label for="password" style="font-size: 20px;">Password</label>
-			<input
-				id="password"
-				name="password"
-				type="password"
-				required
-				placeholder="Enter your password"
-			/>
+			<input id="password" name="password" type="text" required placeholder="Enter your password" />
 
 			<button type="submit">Sign In</button>
 		</form>
@@ -31,7 +31,7 @@
 
 	.container {
 		display: flex;
-		height: 100vh;
+		height: 70vh;
 		justify-content: center;
 		align-items: center;
 	}

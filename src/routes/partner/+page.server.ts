@@ -20,7 +20,8 @@ export const load: PageServerLoad = async ({ cookies }) => {
 		if (!groups?.includes('Partner')) {
 			throw redirect(303, '/unauthorized');
 		}
-	} catch (err) {
+	} catch (error) {
+		console.log(error, 'error login in');
 		throw redirect(303, '/login');
 	}
 

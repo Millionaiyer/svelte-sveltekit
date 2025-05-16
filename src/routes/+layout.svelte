@@ -4,9 +4,11 @@
 
 <nav class="header">
 	<a href="/">Home</a>
+	<a href="/login">Login</a>
 	<a href="/partner">partner</a>
 	<a href="/payout">payout</a>
 	<a href="/managemnet">managemnet</a>
+	<a href="/logout">Logout</a>
 </nav>
 <main>
 	{@render children()}

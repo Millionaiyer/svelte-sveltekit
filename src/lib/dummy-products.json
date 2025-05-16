@@ -1,0 +1,160 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"title": "Essence Mascara Lash Princess",
+			"description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+			"category": "beauty",
+			"price": 9.99,
+			"discountPercentage": 10.48,
+			"rating": 2.56,
+			"stock": 99,
+			"tags": ["beauty", "mascara"],
+			"brand": "Essence",
+			"sku": "BEA-ESS-ESS-001",
+			"weight": 4,
+			"dimensions": {
+				"width": 15.14,
+				"height": 13.08,
+				"depth": 22.99
+			},
+			"warrantyInformation": "1 week warranty",
+			"shippingInformation": "Ships in 3-5 business days",
+			"availabilityStatus": "In Stock",
+			"reviews": [
+				{
+					"rating": 3,
+					"comment": "Would not recommend!",
+					"date": "2025-04-30T09:41:02.053Z",
+					"reviewerName": "Eleanor Collins",
+					"reviewerEmail": "eleanor.collins@x.dummyjson.com"
+				},
+				{
+					"rating": 4,
+					"comment": "Very satisfied!",
+					"date": "2025-04-30T09:41:02.053Z",
+					"reviewerName": "Lucas Gordon",
+					"reviewerEmail": "lucas.gordon@x.dummyjson.com"
+				},
+				{
+					"rating": 5,
+					"comment": "Highly impressed!",
+					"date": "2025-04-30T09:41:02.053Z",
+					"reviewerName": "Eleanor Collins",
+					"reviewerEmail": "eleanor.collins@x.dummyjson.com"
+				}
+			],
+			"returnPolicy": "No return policy",
+			"minimumOrderQuantity": 48,
+			"meta": {
+				"createdAt": "2025-04-30T09:41:02.053Z",
+				"updatedAt": "2025-04-30T09:41:02.053Z",
+				"barcode": "5784719087687",
+				"qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+			},
+			"images": [
+				"https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+			],
+			"thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+		},
+		{
+			"id": 2,
+			"title": "Eyeshadow Palette with Mirror",
+			"description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+			"category": "beauty",
+			"price": 19.99,
+			"discountPercentage": 18.19,
+			"rating": 2.86,
+			"stock": 34,
+			"tags": ["beauty", "eyeshadow"],
+			"brand": "ColorFix",
+			"sku": "BEA-CFX-EYE-002",
+			"weight": 8,
+			"dimensions": {
+				"width": 18.0,
+				"height": 10.0,
+				"depth": 1.5
+			},
+			"warrantyInformation": "2 weeks warranty",
+			"shippingInformation": "Ships in 1-2 business days",
+			"availabilityStatus": "Limited Stock",
+			"reviews": [
+				{
+					"rating": 2,
+					"comment": "Not pigmented enough.",
+					"date": "2025-05-01T11:20:10.053Z",
+					"reviewerName": "Jessica Meyers",
+					"reviewerEmail": "jessica.meyers@x.dummyjson.com"
+				},
+				{
+					"rating": 5,
+					"comment": "Perfect for travel!",
+					"date": "2025-05-02T13:47:32.053Z",
+					"reviewerName": "Andrew Scott",
+					"reviewerEmail": "andrew.scott@x.dummyjson.com"
+				}
+			],
+			"returnPolicy": "7-day return window",
+			"minimumOrderQuantity": 24,
+			"meta": {
+				"createdAt": "2025-04-28T09:00:00.000Z",
+				"updatedAt": "2025-05-01T10:00:00.000Z",
+				"barcode": "4820147789456",
+				"qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+			},
+			"images": ["https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette/1.webp"],
+			"thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette/thumbnail.webp"
+		},
+		{
+			"id": 3,
+			"title": "Matte Liquid Lipstick Set",
+			"description": "A set of long-lasting matte liquid lipsticks in bold and neutral shades. Smudge-proof and transfer-resistant, perfect for all-day wear.",
+			"category": "beauty",
+			"price": 24.99,
+			"discountPercentage": 15.0,
+			"rating": 4.35,
+			"stock": 76,
+			"tags": ["beauty", "lipstick", "makeup"],
+			"brand": "LuxeLips",
+			"sku": "BEA-LL-LIP-003",
+			"weight": 12,
+			"dimensions": {
+				"width": 20.0,
+				"height": 12.0,
+				"depth": 3.0
+			},
+			"warrantyInformation": "1 month warranty",
+			"shippingInformation": "Free shipping available",
+			"availabilityStatus": "In Stock",
+			"reviews": [
+				{
+					"rating": 4,
+					"comment": "Great colors but slightly drying.",
+					"date": "2025-04-27T14:15:00.000Z",
+					"reviewerName": "Rina Patel",
+					"reviewerEmail": "rina.patel@x.dummyjson.com"
+				},
+				{
+					"rating": 5,
+					"comment": "Absolutely love these!",
+					"date": "2025-04-29T09:00:00.000Z",
+					"reviewerName": "Monica Lee",
+					"reviewerEmail": "monica.lee@x.dummyjson.com"
+				}
+			],
+			"returnPolicy": "Return within 14 days",
+			"minimumOrderQuantity": 12,
+			"meta": {
+				"createdAt": "2025-04-25T08:45:00.000Z",
+				"updatedAt": "2025-04-30T16:00:00.000Z",
+				"barcode": "5983210654782",
+				"qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+			},
+			"images": ["https://cdn.dummyjson.com/product-images/beauty/matte-lipstick-set/1.webp"],
+			"thumbnail": "https://cdn.dummyjson.com/product-images/beauty/matte-lipstick-set/thumbnail.webp"
+		}
+	],
+	"total": 3,
+	"skip": 0,
+	"limit": 30
+}

@@ -26,7 +26,6 @@ export const actions = {
 		});
 
 		const loginResponse = await response.json();
-		// console.log(loginResponse, 'login response');
 
 		cookies.set('accessToken', loginResponse?.data?.[0]?.accessToken, { path: '/' });
 		cookies.set('idToken', loginResponse?.data?.[0]?.idToken, { path: '/' });
@@ -35,15 +34,12 @@ export const actions = {
 		const idToken = cookies.get('idToken');
 		if (idToken) {
 			const decodedIdToken: JwtGroups = jwtDecode(idToken);
-			console.log(decodedIdToken, 'decoded');
 
 			const groups = decodedIdToken?.['cognito:groups'];
 
 			const role = groups?.[0];
 			if (role === 'Partner') {
 				redirect(303, '/partner');
-			} else if (role === 'Management') {
-				redirect(303, '/management');
 			} else if (role === 'Payout') {
 				redirect(303, '/payout');
 			}

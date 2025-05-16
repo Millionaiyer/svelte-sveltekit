@@ -5,9 +5,8 @@
 <nav class="header">
 	<a href="/">Home</a>
 	<a href="/login">Login</a>
-	<a href="/partner">partner</a>
-	<a href="/payout">payout</a>
-	<a href="/managemnet">managemnet</a>
+	<a href="/partner">Partner</a>
+	<a href="/payout">Payout</a>
 	<a href="/logout">Logout</a>
 </nav>
 <main>

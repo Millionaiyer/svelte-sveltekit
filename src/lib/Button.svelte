@@ -20,9 +20,27 @@
 		onlefthover,
 		...props
 	}: Props = $props();
+
+	let button:HTMLButtonElement
+
+	export const focus = () => {
+		button.focus()
+	}
+
+
+	export const getButton = () => {
+		return button
+	}
+
 </script>
 
-<button class:sm={size == 'sm'} class:lg={size == 'lg'} class:shadow {...props}>
+<button 
+class:sm={size == 'sm'} 
+class:lg={size == 'lg'} 
+class:shadow {...props} 
+bind:this={button}
+
+>
 	{#if left}
 		<div
 			role="presentation"
